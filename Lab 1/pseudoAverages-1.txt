@@ -1,0 +1,7 @@
+﻿1. Make a while loop and ends when user inputs 0
+2. Prints “Please enter an integer:”
+3. Gets positive numbers and averages
+4. Gets negative averages and averages
+5. When user inputs 0, loop ends
+6. Prints positive average
+7. Prints negative average

@@ -1,0 +1,27 @@
+﻿Activity 1:
+1. Christoforos Kountouris, Ronald Chen, Archimedes Alejandre
+2. https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/ , https://www.youtube.com/watch?v=IGmfU6QU5dI , https://www.quora.com/How-can-I-run-Linux-commands-in-Mac-OS-X
+3. Activity 2:
+
+
+1. You can open your Linux computer from Ubuntu
+1. Yes, you can open
+2. Because you’re not always going to be using one file
+     2.  ls
+     
+3. cd desktop
+        4. mkdir CSE31 
+
+
+
+
+Activity 3
+
+
+3. gcc main.c
+4. It will tell you and your program will work the way it is intended to be.
+5. -c helps compile but does not link
+6. Helps produce debugging information in the operating system. Also sets optimization level to 0
+7. gcc main.c -o cselab1
+8. It would create a.exe
+9. ./cselab1.exe

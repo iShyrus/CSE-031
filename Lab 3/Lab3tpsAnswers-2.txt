@@ -1,0 +1,11 @@
+﻿Activity 1:
+1. Static is global, heap is a dynamic storage accessed through pointers and stack is a local variable
+2. 
+a) 3 variables are declared
+b) 2 of them are pointers, ptr points to num and handle points to ptr.
+c) num is stored in stack memory and ptr and handle are stored in heap memory
+d) It will point to heap memory
+
+Activity 2:
+   1. It creates a pointer. These help link the head to the integer and float value.
+   2.    3. The IValue, FValue and the Next address are really similar in value. It adds by 4 every time.

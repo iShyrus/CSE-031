@@ -1,0 +1,19 @@
+﻿TPS Activity #1
+1. Text Segment: 0x00400000
+Data Segment: 0x10010000
+2. Basic One True Assembly Language shows $8, $0, $0.
+MIPS Assembly Language shows add $t0, $0, $zero
+Basic shows the value while Source shows the registers.
+3. It would be 0x10010020 - 0x10010000 
+4. For each address location, there are 8 columns.
+5. The relationship between them is that they’re different in each column.
+6. .data
+m: .word 20
+7. Its stored on 0x10010000
+8. N/A
+9. Its stored at 0x10010000 with the values 0x6f6c2049, 0x43206576, 0x31334553
+10. Each letter is stored in different columns. This does agree because
+11. li $v0, 4 
+la $a0, str1
+Syscall
+12. la means load address. The value will be 0x0000000d

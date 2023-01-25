@@ -1,0 +1,5 @@
+﻿1. I have L1, L2, L3. I also have L1 with data and L1 with instructions
+2. L1 D-Cache is 32KBytes. L1 I-Cache is 32KBytes. L2 Cache is 512 KBytes. L3 Cache is 16MBytes
+3. All of them are 64-byte line size
+4. All of them are associative. L1 D-Cache, L1 I-Cache, L2 Cache are 8-way. L3 Cache is 16-way
+5. The tag bits are 6,the index bits are 5 and the offset is 5 bits.

@@ -1,0 +1,23 @@
+﻿TPS Activity 1:
+
+
+1. Function takes in a bunch of inputs and returns value, procedure doesn’t return value. A method is like a function but is associated with an object.
+2. 2
+3. 2
+4. j SUM is in line 12.  SUM is in 20. These lines help jump from line 12 to line 20.
+5. We cannot use j because it will jump to the beginning of main.
+6. Its supposed to be saved in line 21. The addresses are being stored at $ra. 0 is being stored
+7. Invalid program counter value: 0x00000000
+8. 0x00400034
+9. n/a
+10. The output is 15
+11. We should be using jal
+12. n/a
+
+
+TPS Activity #2:
+1. 38
+2. Main helps add all the functions and prints it out
+3. Sum knows where to return to because of the address
+4. n/a
+5. Need to have a stack pointer.

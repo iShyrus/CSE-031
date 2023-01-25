@@ -1,0 +1,49 @@
+﻿TPS Activity #1
+        1.
+        2. 
+        3.
+        4. 32 bits
+        5.There is R, I, J so three types. Adding is R and Add immediate is I.
+        6. 
+1. I is the instruction type, has 4 fields, opcode rs rt immediate
+2. 8hex, Rt would be $s0, the value of this register is 0x8, the register for rs $zero
+3.  0x8 = 001000  0x0=00000 0x10=010000  0x19 = 0000000000011001
+0010-00 00-000 1-0000-0  000-0000-0001-1001
+2 - 0 - 0 - 1 - 0 - 0 - 1 - 9
+
+7.
+   1. 0x0230402a, 
+                        000000 00100 10001 10000 00000 101010
+                        
+
+
+   2. It is R instruction type. According to the reference sheet, it is R. There are 4 fields. The names are opcode rs rt rd shamt funct. 
+   3. 0x0 0x4 0x11 0x10 0x0 0x2a
+   4. This operation is slt. We can tell because it has 2a. The mapping is opcode rs rt rd shamt funct
+   5. Not directly because registers are number differentlyt 
+8. 
+
+
+   1. BNE is I format
+
+
+   2. 0x5=000101 0x8=01000 0x0=00000 0x4=000100
+0001 0101 0000 0000 0000 0000 0001
+1 5 0 0 0 0 0 1
+   3.  LESS, Address is 0x0040001c
+   4. Field holds the offset between the next line and label
+   5. Find the difference between the label and the line after
+   6. 0x5 0x8 0x0 0x5
+000101 01000 00000 00000 0000 0000 0001
+        
+9.
+   1. This is a J instruction, there are 2 fields
+   2. Opcode is 2
+   3. Jumps to GREQ, The address is 0x00400030
+   4. 26 bits in the address field. We have to take off two bits because theyre always zero. Then take off the first 4 because we can get it back by program counter
+   5.  0x2 x00400030
+0x2 = 000010
+
+
+0x00400030 = 0000 0000 0100 0000 0000 0000 0011 1000
+0000 0100 0000 0000 0000 0011 00

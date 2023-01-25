@@ -1,0 +1,35 @@
+﻿Activity 1:
+2. https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps/, https://www.geeksforgeeks.org/gdb-step-by-step-introduction/, https://web.eecs.umich.edu/~sugih/pointers/summary.html
+
+
+Activity 2:
+1. g++ -g punishment.c -o punish
+2.  gdb punish
+3. (gdb) run
+4. Breakpoints are when you stop at a certain place in the code.
+5. You can a run a code line by line by typing n.
+6. for(int i ; i<repAmount; i++){
+if(i+1 != typoPlacement){ 
+printf("C Programming language is the best! ");
+7. You can finish running the code by typing continue
+8. You can exit from typing q.
+
+
+
+
+Activity 3:
+   1. 4 variables were declared and 2 were pointers
+   2. x = 0, y = 16, arr[0] = 8, *px = 1512289,  *py = 305396272
+   3. You prevent it by putting them as 0’s or any number you want.
+
+
+
+
+
+
+
+
+Individual Assignment 2:
+   1. The output is expected. The output is HELLO!hello!
+   2. The output is HI!hi!hello! This is not to be expected. The bug here is that words from the previous one are included.
+   3.

@@ -1,0 +1,28 @@
+﻿Activity 1:
+1. n/a
+2. n/a
+3. n/a
+4. n/a
+5. n/a
+6. n/a
+
+
+
+
+Activity 2:
+1. 29
+2. Its looping and adding until it hits a certain counter number.
+3. n/a
+4. n/a
+5. n/a
+6. n/a
+7. 12 values? The first thing that should be stored is $ra
+8. n/a
+9. n/a
+10. We need to save it because we’re going to use that current value later
+11. n/a
+12. Calling recursion right away will return the incorrect value
+13. n/a
+14. n/a
+15. n/a
+16.

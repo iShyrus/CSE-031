@@ -1,0 +1,19 @@
+﻿1. MIPS Assembler and Runtime Assembler
+2. 3. 4.    1. Ctrl+o
+   2. Save code then assemble
+   3. Click the run button
+   4. Technically, yes if you assembled it before you can run it but it wont run recent code. However, if it is new code and you never assembled it, you cannot run it.
+   5. Click the run button with one on it
+   6. Click the reverse double arrow, and then run again.
+
+
+
+
+1. .data is where constant and variables go. .text is where assembly instructions go .word is used for storage
+2. Its an if statement, $t3 and $0 are comparing each other
+3. Its a loop
+4. Click on execute, then click the checkbox on the left
+5. You step through your code by pressing the run with 1 near it
+6. You can change values in the value column of registers.
+7. 0x10010000 is where its stored. 233
+8. Syscall is a system call exception

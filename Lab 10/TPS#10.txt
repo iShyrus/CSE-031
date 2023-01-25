@@ -1,0 +1,36 @@
+﻿TPS #1
+
+
+1. Cache helps store data and we need it so we can access it later
+2. N/A
+3. N/A
+4. The number of bits in an offset is 16. There are 16bits in an offset as a function of block size. It is not practical to have a cache of block size 1.
+5. We need 64 index bits and need 64 buts in index as a function of number of blocks
+6. Yes, you know by multiplying both of them
+7. It will be needed for the tag?
+8. The main memory is 1MB, offset bits is 3bits, number of blocks is 16, number of index bits are 4, number of tag bits is 14
+
+
+TAG         DIRTY         VALID                  DATABLOCKS
+14          1                1                        64
+
+
+                h. 80 bits
+        
+TPS #2
+1. It takes longer and requires more than any other cache
+2. N/A
+3. The number of bits in an index needed is 8 bits
+4. 2
+   1. 1 mb
+   2. 3 bit
+   3. 16 blocks
+   4. 15bits
+   5. 14bits
+
+
+TAG         DIRTY         VALID                  DATABLOCKS
+15        1                1                        64
+
+
+             h. 81 bits

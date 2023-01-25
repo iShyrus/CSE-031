@@ -1,0 +1,11 @@
+﻿Individual Assignment 1:
+1. The line that causes a segmentation fault is the second scanf(“%d”, &input);
+2. We fix it by putting & before input.
+3. The bug is that the average will keep outputting as 0
+4. The fix is to make the sum variable a pointer in the function read_values. In the function main, you have to add an address to sum.
+
+
+Individual Assignment 2:
+1. The output is expected only sometimes. Sometimes it prints out symbols after the output. The output is sometimes HELLO!hello! and sometimes prints out HELLO!hello!llo! in the C compiler browser.
+2. The output is HI!hi!hello! This is not to be expected. The bug here is that words from the previous one are included.
+3. The output isn’t expected. I think this is happening because the length of str2 might be too long, messing up the code.
